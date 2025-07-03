@@ -22,13 +22,6 @@ This project is an intelligent safety system for industrial conveyor belts. It i
 | Database           | PostgreSQL (or alternative)  |
 | Deployment         | Raspberry Pi                 |
 
-## 📂 Project Structure
-
-├── images_equals.py # Image comparison logic
-├── label.py # Label management for object detection
-├── namingimages.py # Rename/categorize dataset images
-├── train_test_split.py # Train/test data preparation
-└── yolov8_foreign_object_detection.ipynb # Training notebook
 
 
 ## 🖼️ Dataset
