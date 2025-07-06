@@ -1,16 +1,16 @@
-# An IoT-Based Safety System for Conveyor Belt 🔧🔥
+# An IoT-Based Safety System for Conveyor Belt
 
 This project is an intelligent safety system for industrial conveyor belts. It integrates **IoT sensors**, **object detection (YOLOv8)**, and real-time monitoring to prevent hazardous incidents during coal or material transportation.
 
-## 🚀 Features
+## Features
 
-- 🔥 **Temperature Monitoring**: Detects overheating or fire risk using MLX90640 thermal sensors.
-- 🧲 **Metal Detection**: Identifies buried foreign metals using custom sensors built with the TDA0161 IC.
-- 🧠 **Foreign Object Detection (YOLOv8)**: Trained on a custom dataset of 17,000+ annotated images to detect unwanted objects on the belt.
-- 📶 **Live Web Dashboard**: Shows real-time sensor data and alert notifications via a modern UI.
-- 📱 **Mobile-Compatible Alerts**: Push notifications for critical temperature or object detections.
+- **Temperature Monitoring**: Detects overheating or fire risk using MLX90640 thermal sensors.
+- **Metal Detection**: Identifies buried foreign metals using custom sensors built with the TDA0161 IC.
+- **Foreign Object Detection (YOLOv8)**: Trained on a custom dataset of 17,000+ annotated images to detect unwanted objects on the belt.
+- **Live Web Dashboard**: Shows real-time sensor data and alert notifications via a modern UI.
+- **Mobile-Compatible Alerts**: Push notifications for critical temperature or object detections.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Component          | Stack/Tool                  |
 |-------------------|-----------------------------|
@@ -24,13 +24,13 @@ This project is an intelligent safety system for industrial conveyor belts. It i
 
 
 
-## 🖼️ Dataset
+## Dataset
 
 - **17,000+ images**, labeled as `foreign_object`.
 - Split into `train/` and `val/` directories.
 - Label format: YOLO format (.txt files with class & bbox)
 
-## 📊 Model Performance
+## Model Performance
 | Metric         | Value |
 |----------------|-------|
 | Precision      | 0.76  |
@@ -38,4 +38,6 @@ This project is an intelligent safety system for industrial conveyor belts. It i
 | mAP@0.5        | 0.71  |
 | mAP@0.5:0.95   | 0.29  |
 
+## GUI (Contains Postgres SQL database at the backend) 
+![IMG-20250703-WA0008 1](https://github.com/user-attachments/assets/7d627a2c-79b1-4738-8de4-d55cbfbef68e)
 
